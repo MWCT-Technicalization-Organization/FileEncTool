@@ -84,4 +84,4 @@ rsa_decrypt_file(file_path, key_path, backpath)
 
 ## 许可证
 
-本项目基于AGPL许可证进行许可。详细信息请参阅[LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool)文件。
+本项目基于AGPL 3.0许可证进行许可。详细信息请参阅[LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool)文件。
