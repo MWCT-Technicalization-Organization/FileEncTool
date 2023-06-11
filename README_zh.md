@@ -14,7 +14,7 @@
 使用pip安装文件加密工具：
 
 ```shell
-pip install file-encryption-tool
+pip install FileEncTool
 ```
 
 ## 使用方法
@@ -22,7 +22,7 @@ pip install file-encryption-tool
 ### 生成RSA密钥对
 
 ```python
-from file_encryption_tool import generate_rsa_keypair
+from encfile import generate_rsa_keypair
 
 priv_file = "private.pem"
 pub_file = "public.pem"
@@ -33,7 +33,7 @@ generate_rsa_keypair(priv_file, pub_file)
 ### 使用RSA和AES加密文件
 
 ```python
-from file_encryption_tool import rsa_aes_encrypt_file
+from encfile import rsa_aes_encrypt_file
 
 file_path = "plaintext.txt"
 key_path = "public.pem"
@@ -45,7 +45,7 @@ rsa_aes_encrypt_file(file_path, key_path, backpath)
 ### 使用RSA和AES解密文件
 
 ```python
-from file_encryption_tool import rsa_aes_decrypt_file
+from encfile import rsa_aes_decrypt_file
 
 file_path = "encrypted_file.txt"
 key_path = "private.pem"
@@ -57,7 +57,7 @@ rsa_aes_decrypt_file(file_path, key_path, backpath)
 ### 使用纯RSA加密文件
 
 ```python
-from file_encryption_tool import rsa_encrypt_file
+from encfile import rsa_encrypt_file
 
 file_path = "plaintext.txt"
 key_path = "public.pem"
@@ -69,7 +69,7 @@ rsa_encrypt_file(file_path, key_path, backpath)
 ### 使用纯RSA解密文件
 
 ```python
-from file_encryption_tool import rsa_decrypt_file
+from encfile import rsa_decrypt_file
 
 file_path = "encrypted_file.txt"
 key_path = "private.pem"
