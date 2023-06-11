@@ -9,7 +9,7 @@ Welcome to the encfile library documentation! encfile is a powerful Python libra
 
 You can install the encfile library using the pip command:
 
-```python
+```shell
 pip install FileEncTool
 ```
 
