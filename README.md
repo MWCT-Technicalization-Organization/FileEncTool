@@ -92,3 +92,7 @@ You need to provide the path of the encrypted file, the path of the RSA private 
 ## Conclusion
 
 The encfile library provides convenient asymmetric file encryption and decryption capabilities. You can use either the RSA-AES hybrid encryption or the pure RSA encryption scheme to protect your files. Make sure to securely store your private key file to prevent data leaks. If you have any further questions, please refer to the comments in the __init__.py file or contact the author.
+
+## License
+
+This project is licensed under the AGPL 3.0 license. See the [LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool/blob/main/LICENSE) file for details.
