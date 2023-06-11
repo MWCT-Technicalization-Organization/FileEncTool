@@ -85,4 +85,4 @@ For more details and advanced usage, please refer to the [documentation](https:/
 
 ## License
 
-This project is licensed under the GPL-3.0 license. See the [LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool) file for details.
+This project is licensed under the AGPL 3.0 license. See the [LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool) file for details.
