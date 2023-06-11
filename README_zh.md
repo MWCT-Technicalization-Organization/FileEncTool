@@ -1,4 +1,4 @@
-[# encfile官方文档
+# encfile官方文档
 
 ## 简介
 
