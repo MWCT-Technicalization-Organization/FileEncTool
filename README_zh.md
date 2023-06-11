@@ -8,7 +8,7 @@
 
 您可以使用pip命令来安装encfile库：
 
-```python
+```shell
 pip install FileEncTool
 ```
 
@@ -67,7 +67,7 @@ rsa_aes_decrypt_file(file_path='encrypted_file.enc', key_path='private_key.pem',
 from encfile import rsa_encrypt_file
 
 # 使用纯RSA加密加密文件
-rsa_encrypt_file(file_path='plaintext.txt', key_path='public_key.pem', backpath='encrypted_file.enc', use_multithreading=False, show_progress=False, show_progress=False)
+rsa_encrypt_file(file_path='plaintext.txt', key_path='public_key.pem', backpath='encrypted_file.enc', use_multithreading=False, show_progress=False, show_feedback=False)
 ```
 
 ### 纯RSA解密
