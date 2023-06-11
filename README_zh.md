@@ -16,8 +16,7 @@ pip install FileEncTool
 
 ### 生成RSA密钥对
 
-要生成RSA密钥对并将私钥和公钥保存到文件中，可以使用`generate_rsa_keypair`函数：
-
+要生成RSA密钥对并将
 ```python
 from encfile import generate_rsa_keypair
 
@@ -62,16 +61,28 @@ rsa_aes_decrypt_file(file_path='encrypted_file.enc', key_path='private_key.pem',
 
 ### 纯RSA加密
 
-要使用纯RSA加密方案加密文件，可以使用`rsa_encrypt_file`函数：
-
+要使用纯RSA加密方案加密文件，可以使用`rsa_encr
+您需要提供要加密的文件的路径，RSA公钥文件的路径以及保存加密文件的路径。默认情况下，加密过程使用多线程并显示进度条。您可以通过将`use_multithreading`参数设置为`False`来禁用多线程，通过将`show_progress`参数设置为`False`来禁用进度条。默认情况下，在加密过程中会显示反馈消息。您可以通过将`show_feedback`参数设置为`False`来禁用反馈消息。操作如下：
 ```python
 from encfile import rsa_encrypt_file
 
 # 使用纯RSA加密加密文件
-rsa_encrypt_file(file_path='plaintext.txt', key_path='public_key.pem', backpath='encrypted_file.enc')
+rsa_encrypt_file(file_path='plaintext.txt', key_path='public_key.pem', backpath='encrypted_file.enc', use_multithreading=False, show_progress=False, show_progress=False)
 ```
+
+### 纯RSA解密
+
+要解密使用纯RSA加密方案加密的文件，可以使用`rsa_decrypt_file`函数：
+
+```python
+from encfile import rsa_decrypt_file
+
+# 解密使用纯RSA加密的文件
+rsa_decrypt_file(file_path='encrypted_file.enc', key_path='private_key.pem', backpath='decrypted_file.txt')
+```
+
+您需要提供加密文件的路径，RSA私钥文件的路径以及保存解密文件的路径。默认情况下，在解密过程中会显示反馈消息。您可以通过将`show_feedback`参数设置为`False`来禁用反馈消息，操作同上
 
 ## 结论
 
 encfile库提供了方便的非对称文件加密和解密功能，您可以使用RSA-AES混合加密或纯RSA加密方案来保护您的文件。请确保妥善保管您的私钥文件，以防止数据泄露。如有其他疑问，请查看__init__.py代码注释或联系作者。
-](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool/edit/main/README.md)
