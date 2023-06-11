@@ -80,9 +80,9 @@ rsa_decrypt_file(file_path, key_path, backpath)
 
 ## Documentation
 
-For more details and advanced usage, please refer to the [documentation]([https://github.com/yourusername/file-encryption-tool](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool)).
+For more details and advanced usage, please refer to the [documentation](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool/LICENSE) file for details.
 ```
