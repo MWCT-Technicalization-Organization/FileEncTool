@@ -1,3 +1,4 @@
+中文文档请查看README_zh.md
 # File Encryption Tool
 
 The File Encryption Tool is a Python library and command-line tool that provides file encryption and decryption capabilities using RSA and AES algorithms.
