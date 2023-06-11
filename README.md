@@ -1,4 +1,4 @@
-中文文档请查看README_zh.md
+中文文档请查看[README_zh.md](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool/blob/main/README_zh.md)
 # File Encryption Tool
 
 The File Encryption Tool is a Python library and command-line tool that provides file encryption and decryption capabilities using RSA and AES algorithms.
@@ -85,4 +85,4 @@ For more details and advanced usage, please refer to the [documentation](https:/
 
 ## License
 
-This project is licensed under the AGPL 3.0 license. See the [LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool) file for details.
+This project is licensed under the AGPL 3.0 license. See the [LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool/blob/main/LICENSE) file for details.
