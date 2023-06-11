@@ -86,3 +86,7 @@ rsa_decrypt_file(file_path='encrypted_file.enc', key_path='private_key.pem', bac
 ## 结论
 
 encfile库提供了方便的非对称文件加密和解密功能，您可以使用RSA-AES混合加密或纯RSA加密方案来保护您的文件。请确保妥善保管您的私钥文件，以防止数据泄露。如有其他疑问，请查看__init__.py代码注释或联系作者。
+
+## License
+
+本项目使用AGPL 3.0许可证。有关详细信息，请参阅[LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool/blob/main/LICENSE)文件。
