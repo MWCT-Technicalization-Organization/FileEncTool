@@ -16,7 +16,7 @@ pip install FileEncTool
 
 ### 生成RSA密钥对
 
-要生成RSA密钥对并将
+要生成RSA密钥对并将私钥和公钥保存到文件中，您可以使用`generate_rsa_keypair`函数：
 ```python
 from encfile import generate_rsa_keypair
 
