@@ -1,4 +1,4 @@
-中文文档请访问[README_zh.md](https://github.com/MWCT-Technicalization-Organization/FileEncTool/edit/main/README_zh.md)
+中文文档请访问[README_zh.md](https://github.com/MWCT-Technicalization-Organization/FileEncTool/blob/main/README_zh.md)
 # encfile Official Documentation
 
 ## Introduction
