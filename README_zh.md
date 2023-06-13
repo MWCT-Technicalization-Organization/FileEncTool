@@ -61,7 +61,7 @@ rsa_aes_decrypt_file(file_path='encrypted_file.enc', key_path='private_key.pem',
 
 ### 纯RSA加密
 
-要使用纯RSA加密方案加密文件，可以使用`rsa_encr
+要使用纯RSA加密方案加密文件，可以使用`rsa_encrypt_file`函数
 您需要提供要加密的文件的路径，RSA公钥文件的路径以及保存加密文件的路径。默认情况下，加密过程使用多线程并显示进度条。您可以通过将`use_multithreading`参数设置为`False`来禁用多线程，通过将`show_progress`参数设置为`False`来禁用进度条。默认情况下，在加密过程中会显示反馈消息。您可以通过将`show_feedback`参数设置为`False`来禁用反馈消息。操作如下：
 ```python
 from encfile import rsa_encrypt_file
