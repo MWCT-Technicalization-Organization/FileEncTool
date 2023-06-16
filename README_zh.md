@@ -89,4 +89,4 @@ encfile库提供了方便的非对称文件加密和解密功能，您可以使�
 
 ## License
 
-本项目使用AGPL 3.0许可证。有关详细信息，请参阅[LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool/blob/main/LICENSE)文件。
+本项目使用AGPL 3.0许可证。有关详细信息，请参阅[LICENSE](https://github.com/MWCT-Technicalization-Organization/FileEncTool/blob/main/LICENSE)文件。
