@@ -95,4 +95,4 @@ The encfile library provides convenient asymmetric file encryption and decryptio
 
 ## License
 
-This project is licensed under the AGPL 3.0 license. See the [LICENSE](https://github.com/MWCT-Technicalization-Organization/File_Encryption_Tool/blob/main/LICENSE) file for details.
+This project is licensed under the AGPL 3.0 license. See the [LICENSE](https://github.com/MWCT-Technicalization-Organization/FileEncTool/blob/main/LICENSE) file for details.
